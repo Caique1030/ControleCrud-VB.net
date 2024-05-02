@@ -193,7 +193,6 @@
     <Compile Include="Controllers\AutenticacaoController.vb" />
     <Compile Include="Controllers\HomeController.vb" />
     <Compile Include="Controllers\Padrao1Controller.vb" />
-    <Compile Include="Controllers\PadraoController.vb" />
     <Compile Include="Controllers\UsuariosController.vb" />
     <Compile Include="Global.asax.vb">
       <DependentUpon>Global.asax</DependentUpon>
@@ -291,10 +290,6 @@
     <Content Include="Views\Admin\Index.vbhtml" />
     <Content Include="Views\Autenticacao\Login.vbhtml" />
     <Content Include="Views\Home\Index.vbhtml" />
-    <Content Include="Views\Padrao\Index.vbhtml" />
-    <Content Include="Views\Padrao\Edit.vbhtml" />
-    <Content Include="Views\Padrao\Delete.vbhtml" />
-    <Content Include="Views\Padrao\Details.vbhtml" />
     <Content Include="Views\Padrao1\Delete.vbhtml" />
     <Content Include="Views\Padrao1\Details.vbhtml" />
     <Content Include="Views\Padrao1\Edit.vbhtml" />

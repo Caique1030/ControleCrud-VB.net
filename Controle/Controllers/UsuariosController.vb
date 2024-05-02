@@ -15,7 +15,6 @@ Namespace Controllers
         Private db As New ControleContext
 
         Function Index() As ActionResult
-            ' Lógica para obter a lista de usuários do banco de dados
             Dim usuarios As IEnumerable(Of Usuario) = db.Usuarios.ToList()
             Return View(usuarios)
         End Function

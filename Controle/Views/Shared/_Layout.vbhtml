@@ -6,7 +6,7 @@
     <title>@ViewBag.Title - Crud Caique </title>
     <link href="~/Content/Site.css" rel="stylesheet" type="text/css" />
     <link href="~/Content/bootstrap.min.css" rel="stylesheet" type="text/css" />
-    <link rel="icon" type="image/png" href="~/favicon.png" /> <!-- Adicione esta linha -->
+    <link rel="icon" type="image/png" href="~/favicon.png" /> 
     <script src="~/Scripts/modernizr-2.6.2.js"></script>
 </head>
 

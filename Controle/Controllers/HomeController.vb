@@ -6,7 +6,6 @@ Namespace Controllers
 
         ' GET: Home
         Function Index() As ActionResult
-            ' Aqui você pode adicionar lógica para obter dados ou qualquer outra coisa que precise ser feita para a página inicial
             Dim model As New Usuario() With {.Nome = "Usuário"}
             Return View(model)
         End Function
