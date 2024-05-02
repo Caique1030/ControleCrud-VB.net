@@ -14,6 +14,8 @@ Clone ou baixe o repositório para o seu computador e abra o projeto no Visual S
 
 ## Configuração
 
+PARA CADASTRAR O ADMINISTRADOR E DEMAIS USUARIOS , NECESSARIO ACESSAR A URL: SEULOCALHOST/Admin/Create.
+
 Antes de executar o projeto, é necessário configurar a string de conexão com o banco de dados SQL Server. Abra o arquivo `Web.config` localizado na pasta do projeto e localize a seção `<connectionStrings>`. Substitua a string de conexão existente pela sua própria string de conexão.
 
 Exemplo de string de conexão:
