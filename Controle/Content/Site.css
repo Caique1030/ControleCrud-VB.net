@@ -1,0 +1,41 @@
+﻿body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+    background-color: #f8f9fa; /* Cor de fundo */
+}
+
+/* Centraliza o conteúdo */
+.body-content {
+    padding: 0 15px;
+    text-align: center;
+}
+
+/* Define a largura máxima para os elementos de formulário */
+input,
+select,
+textarea {
+    max-width: 280px;
+    margin: 0 auto; /* Centraliza os elementos */
+}
+
+/* Estiliza o botão */
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff; /* Cor de fundo do botão */
+    color: #fff; /* Cor do texto do botão */
+}
+
+.btn-secondary {
+    background-color: #6c757d; /* Cor de fundo do botão secundário */
+}
+
+.btn:hover {
+    background-color: #0056b3; /* Cor de fundo do botão ao passar o mouse */
+}

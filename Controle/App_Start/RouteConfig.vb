@@ -1,18 +1,15 @@
-﻿Imports System
-Imports System.Collections.Generic
-Imports System.Linq
-Imports System.Web
-Imports System.Web.Mvc
+﻿Imports System.Web.Mvc
 Imports System.Web.Routing
 
-Public Module RouteConfig
-    Public Sub RegisterRoutes(ByVal routes As RouteCollection)
+Public Class RouteConfig
+    Public Shared Sub RegisterRoutes(routes As RouteCollection)
         routes.IgnoreRoute("{resource}.axd/{*pathInfo}")
 
+        ' Configuração da rota padrão para redirecionar para a página de login
         routes.MapRoute(
             name:="Default",
             url:="{controller}/{action}/{id}",
-            defaults:=New With {.controller = "Home", .action = "Index", .id = UrlParameter.Optional}
+            defaults:=New With {.controller = "Autenticacao", .action = "Login", .id = UrlParameter.Optional}
         )
     End Sub
-End Module
+End Class
