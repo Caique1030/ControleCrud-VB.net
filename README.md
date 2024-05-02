@@ -18,7 +18,6 @@ Antes de executar o projeto, é necessário configurar a string de conexão com 
 
 Exemplo de string de conexão:
 
-```xml
 <add name="ControleContext" connectionString="Data Source=NomeDoServidor;Initial Catalog=NomeDoBanco;Integrated Security=True" providerName="System.Data.SqlClient" />
 
 #Uso
@@ -34,6 +33,6 @@ Este projeto está sob a licença MIT License.
 Para mais informações ou dúvidas sobre este projeto, entre em contato:
 
 Email: kaikejrsilva55@gmail.com
-LinkedIn: Caique Junior da Silva
+LinkedIn: https://www.linkedin.com/in/caique-junior-da-silva-369403126/
 Créditos
 Desenvolvido por: CAIQUE JUNIOR DA SILVA
