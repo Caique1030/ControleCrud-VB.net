@@ -25,6 +25,7 @@ Exemplo de string de conexão:
 <add name="ControleContext" connectionString="Data Source=NomeDoServidor;Initial Catalog=NomeDoBanco;Integrated Security=True" providerName="System.Data.SqlClient" />
 
 Apos a configuração da conexão com o banco , faca uma migration: Tools -> NuGet Package Manager -> Package Manager Console ->  Add-Magration NOME MIGRATION
+
 #Uso
 Este projeto permite a criação, leitura, atualização e exclusão de registros no banco de dados, com controle de acesso baseado em tipo de usuário.
 
@@ -37,7 +38,7 @@ Este projeto está sob a licença MIT License.
 #Contato
 Para mais informações ou dúvidas sobre este projeto, entre em contato:
 
-Email: kaikejrsilva55@gmail.com
-LinkedIn: https://www.linkedin.com/in/caique-junior-da-silva-369403126/
-Créditos
+#Email: kaikejrsilva55@gmail.com
+#LinkedIn: https://www.linkedin.com/in/caique-junior-da-silva-369403126/
+#Créditos
 Desenvolvido por: CAIQUE JUNIOR DA SILVA
