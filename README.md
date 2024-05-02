@@ -16,12 +16,15 @@ Clone ou baixe o repositório para o seu computador e abra o projeto no Visual S
 
 PARA CADASTRAR O ADMINISTRADOR E DEMAIS USUARIOS , NECESSARIO ACESSAR A URL: SEULOCALHOST/Admin/Create.
 
+Antes de Executar o projeo e necessario criar uma DataBase, exemplo : UsuarioDB
+
 Antes de executar o projeto, é necessário configurar a string de conexão com o banco de dados SQL Server. Abra o arquivo `Web.config` localizado na pasta do projeto e localize a seção `<connectionStrings>`. Substitua a string de conexão existente pela sua própria string de conexão.
 
 Exemplo de string de conexão:
 
 <add name="ControleContext" connectionString="Data Source=NomeDoServidor;Initial Catalog=NomeDoBanco;Integrated Security=True" providerName="System.Data.SqlClient" />
 
+Apos a configuração da conexão com o banco , faca uma migration: Tools -> NuGet Package Manager -> Package Manager Console ->  Add-Magration NOME MIGRATION
 #Uso
 Este projeto permite a criação, leitura, atualização e exclusão de registros no banco de dados, com controle de acesso baseado em tipo de usuário.
 
